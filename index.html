@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0614" />
+  <title>OPEN REXIS (ORX)</title>
+  <meta name="description" content="OPEN REXIS (ORX) — a competitive Valorant team built on fundamentals and open-minded growth." />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- System font stack for speed; no external fonts required -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="bg">
+    <div class="grid"></div>
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+  </div>
+
+  <header class="header">
+    <a class="brand" href="#top" aria-label="OPEN REXIS home">
+      <img class="brand__logo" src="./assets/orx-logo-transparent.png" alt="OPEN REXIS logo" />
+      <div class="brand__text">
+        <div class="brand__name">OPEN REXIS</div>
+        <div class="brand__tag">ORX</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#roster">Roster</a>
+      <a href="#join">Join</a>
+      <a href="#media">Media</a>
+    </nav>
+
+    <button class="navbtn" id="navbtn" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobileNav" id="mobileNav" hidden>
+    <a href="#about">About</a>
+    <a href="#roster">Roster</a>
+    <a href="#join">Join</a>
+    <a href="#media">Media</a>
+  </nav>
+
+  <main id="top" class="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__left">
+        <div class="kicker">VALORANT • COMPETITIVE • COMMUNITY</div>
+        <h1 class="title">
+          OPEN REXIS <span class="title__accent">(ORX)</span>
+        </h1>
+        <p class="subtitle">
+          Built on fundamentals. Open to evolution.
+          <span class="muted">A team and community centered on growth, clarity, and respect.</span>
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#join">Join the community</a>
+          <a class="btn btn--ghost" href="#roster">Meet the roster</a>
+        </div>
+
+        <div class="badges">
+          <div class="badge"><span class="dot"></span> Clean comms</div>
+          <div class="badge"><span class="dot"></span> Growth mindset</div>
+          <div class="badge"><span class="dot"></span> Team-first</div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="card card--hero">
+          <div class="card__top">
+            <div class="pill">ORX STANDARD</div>
+            <div class="pill pill--gold">PURPLE • GOLD</div>
+          </div>
+
+          <div class="orxMark">
+            <div class="orxMark__inner">
+              <span class="orx">ORX</span>
+            </div>
+          </div>
+
+          <div class="card__copy">
+            <p>
+              “Open” is adaptability and humility.
+              <br />
+              “Rexis” is structure, a framework for improvement.
+            </p>
+            <p class="muted small">
+              We build clean fundamentals and stay open-minded on and off the server.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section__head">
+        <h2>About</h2>
+        <p class="muted">What OPEN REXIS stands for.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Our mindset</h3>
+          <ul class="list">
+            <li><b>Open-minded:</b> learn fast, adapt faster.</li>
+            <li><b>Fundamentals:</b> clean spacing, timing, trading, comms.</li>
+            <li><b>Respect:</b> no ego, no drama, no cringe.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Interview answer (simple)</h3>
+          <p class="quote">
+            “OPEN REXIS is about staying open-minded while building strong fundamentals.”
+          </p>
+          <p class="muted small">
+            No geographic identity. No forced lore. Just values that show in how we play.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROSTER -->
+    <section id="roster" class="section">
+      <div class="section__head">
+        <h2>Roster</h2>
+        <p class="muted">Current lineup (v1). More coming soon.</p>
+      </div>
+
+      <div class="roster">
+        <article class="player">
+          <div class="player__top">
+            <div class="player__tag">MIKI</div>
+            <div class="player__role">IGL • Flex</div>
+          </div>
+          <div class="player__meta">
+            <div class="chip">Calm comms</div>
+            <div class="chip">Bilingual (EN/FR)</div>
+            <div class="chip chip--gold">Founder</div>
+          </div>
+          <p class="muted small">
+            Focused on clean fundamentals, team play, and consistent improvement.
+          </p>
+        </article>
+
+        <!-- Duplicate this block for new members -->
+        <article class="player player--empty">
+          <div class="player__top">
+            <div class="player__tag">OPEN SLOT</div>
+            <div class="player__role">Tryouts soon</div>
+          </div>
+          <p class="muted small">
+            Want to compete with a structured team and a respectful community?
+          </p>
+          <a class="btn btn--ghost btn--sm" href="#join">Apply / Join</a>
+        </article>
+
+        <article class="player player--empty">
+          <div class="player__top">
+            <div class="player__tag">OPEN SLOT</div>
+            <div class="player__role">Tryouts soon</div>
+          </div>
+          <p class="muted small">
+            We value growth mindset, discipline, and clear comms.
+          </p>
+          <a class="btn btn--ghost btn--sm" href="#join">Apply / Join</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- JOIN -->
+    <section id="join" class="section">
+      <div class="section__head">
+        <h2>Join</h2>
+        <p class="muted">Community first. Team section is private.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Community</h3>
+          <p class="muted">
+            Chill, respectful, improvement-focused. Clips, LFT, and regular stacks.
+          </p>
+
+          <!-- Replace the href with your real Discord invite -->
+          <a class="btn btn--primary" href="https://discord.gg/quRC8KkBnM" target="_blank" rel="noreferrer">
+            Join Discord
+          </a>
+
+          <p class="muted small">
+            Tip: once your server exists, paste the invite link here.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Team</h3>
+          <p class="muted">
+            Team channels are role-locked. Tryouts / recruitment will be posted in Discord.
+          </p>
+          <div class="note">
+            <b>What we look for:</b> comm discipline, adaptability, consistency, and respect.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media" class="section">
+      <div class="section__head">
+        <h2>Media</h2>
+        <p class="muted">Clips and socials (add later).</p>
+      </div>
+
+      <div class="grid3">
+        <a class="card link" href="#" aria-disabled="true">
+          <h3>Highlights</h3>
+          <p class="muted small">Coming soon</p>
+        </a>
+        <a class="card link" href="#" aria-disabled="true">
+          <h3>Youtube</h3>
+          <p class="muted small">Coming soon</p>
+        </a>
+        <a class="card link" href="#" aria-disabled="true">
+          <h3>Instagram</h3>
+          <p class="muted small">Coming soon</p>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__left">
+        <div class="footer__brand">OPEN REXIS</div>
+        <div class="muted small">© <span id="year"></span> ORX. All rights reserved.</div>
+      </div>
+      <div class="footer__right">
+        <span class="muted small">Made for ORX • Purple & Gold</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
